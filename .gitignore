@@ -1,7 +1,7 @@
 .idea
 .terraform
 keys.json
-*/venv
+*venv/
 *.iml
 plan.prod
 plan.pilot
