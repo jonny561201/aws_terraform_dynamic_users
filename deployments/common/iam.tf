@@ -1,7 +1,7 @@
 resource "aws_iam_user" "lb" {
   name = "classroom_user_${count.index}"
   path = "/system/"
-  force_destroy = True
+  force_destroy = true
   count = var.user_count
 }
 
